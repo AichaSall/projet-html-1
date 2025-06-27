@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.site-header {
+  background-color: #20232a;
+  color: white;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.main-title {
+  margin: 0;
+}
+
+.navbar {
+  background-color: #282c34;
+}
+
+.nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.nav-list a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+
+.nav-list a:hover {
+  background-color: #61dafb;
+  color: black;
+}
+
+.section {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+  background-color: white;
+  margin-top: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input, .contact-form button {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.contact-form button {
+  background-color: #20232a;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #61dafb;
+  color: black;
+}
+
+.portfolio-video {
+  display: block;
+  margin: 20px auto;
+}
+
+.site-footer {
+  background-color: #20232a;
+  color: white;
+  text-align: center;
+  padding: 25px 10px;
+  margin-top: 50px;
+}
+
+.site-footer a {
+  color: #61dafb;
+  text-decoration: none;
+}

@@ -1,51 +1,81 @@
 <!DOCTYPE html>
-<html lang="fr">
-    <head>
-        <meta charset="UTF-8">
-        <title>Mon Portfolio</title>
-    </head>
-    <body>
-            <h1>PRESENTATION DE MON PORTFOLIO</h1>
-            <nav>
-                <ul>
-                    <li><a href="#accueil">Accueil</a></li>
-                    <li><a href="#apropos">A propos</a></li>
-                    <li><a href="#travail">Travail</a></li>
-                    <li><a href="#cv">CV</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-            <video controls with="300">
-                <source src="c:\Users\Dell Latitude\OneDrive\Vidéos\VID-20250617-WA0040.mp4">
-            </video>
-            <section id="accueil">
-                <h2>Accueil</h2>
-                <p>Bienvenu sur mon site personnel.Je m'appelle Aicha Sall. Je suis etudiante en ingenierie juridique a l'universite Alioune Diop de Bambey, passionnee par le developpement web et la cybersecurite</p>
-            </section>
-            <section id="a propos">
-                <h2>A propos</h2>
-                <p>Mon objectif est de mettre la technologie au service du droit et de contribuer a l'emergence des solutions numeriques du Senegal</p>
-            </section>
-            <section id="travail">
-             <h2>Travail</h2>
-             <p>Etudiante en ingenierie juridique, bientot j'aurai mon certificat en developpement web chez gomycode. Actuellement je n'ai pas un travail precis</p>
-            </section>
-            <section id="cv">
-                <h2>CV</h2>
-                <img src="C:\Users\Dell Latitude\OneDrive\Bureau\GOMYCODE\My portfolio\cv en capture.png" alt="description" width="300">
-            </section>
-            <section id="contact">
-                <form>
-                  <label for="nom">Nom:</label>
-                  <input type="text" id="nom" name="nom"><br>
-                  <label for="email">Email:</label>
-                  <input type="text" id="email" name="email"><br>
-                  <button type="submit">Soumettre</button>
-                </form>
-            </section>
-    </body>
-    <footer>
-           <p>&copy; 2025 Mon Site Web. Tous droits réservés.</p>
-           <p><a href="/politique-de-confidentialite">Politique de confidentialité</a> | <a href="/contact">Contact</a></p>
-    </footer>
+<html lang="fr" class="html-root">
+<head>
+  <meta charset="UTF-8" />
+  <title>Mon Portfolio</title>
+
+  <!-- Liaison CSS externe -->
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Import Google Fonts : Roboto -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+</head>
+<body class="site-body">
+
+  <header class="site-header">
+    <h1 class="main-title">Mon Portfolio Créatif</h1>
+
+    <!-- NAVIGATION -->
+    <nav class="navbar">
+      <ul class="nav-list">
+        <li class="nav-item"><a href="#accueil" class="nav-link">Accueil</a></li>
+        <li class="nav-item"><a href="#apropos" class="nav-link">À propos</a></li>
+        <li class="nav-item"><a gref="cv" class="nav-link">Cv</a></li>
+        <li class="nav-item"><a href="#travail" class="nav-link">Travail</a></li>
+        <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div style="display: flex; justify-content: center; margin: 30px 0;">
+    <video controls style="width: 500px; max-width: 90%; border-radius: 8px;">
+      <source src="video.mp4" type="video/mp4">
+    </video>
+  </div>
+
+  <main class="site-main">
+    <section id="accueil" class="section accueil-section">
+     <h2>Bienvenue</h2>
+     <p>Bienvenue sur mon portfolio personnel. Je m'appelle Aïcha Sall, étudiante en ingénierie juridique à l’Université Alioune Diop de Bambey, passionnée par le développement web et la cybersécurité. Mon parcours est le reflet d’un engagement profond : allier la rigueur du droit à la puissance de la technologie pour construire un avenir meilleur au Sénégal et en Afrique.
+        Curieuse, persévérante et déterminée, je crois fermement que les compétences numériques sont des leviers incontournables pour relever les défis juridiques et sociétaux de demain. C’est pourquoi je me forme activement au développement web, tout en renforçant mes connaissances en cybersécurité, avec l’ambition d’innover et de sécuriser les solutions numériques de notre continent.
+        À travers ce site, je vous invite à découvrir mon univers, mes projets, ma vision et mes compétences. Que vous soyez professionnel, recruteur, étudiant ou simplement curieux, j’espère que vous trouverez ici l’inspiration d’une jeunesse qui ose, qui apprend, qui construit. Merci de votre visite </p>
+    </section>
+
+    <section id="apropos" class="section about-section">
+      <h2>À propos</h2>
+      <p>Je m’appelle Aïcha Sall, étudiante en ingénierie juridique à l’Université Alioune Diop de Bambey. Je m’intéresse particulièrement à l’intégration des technologies numériques dans le domaine du droit afin de moderniser et sécuriser les pratiques juridiques au Sénégal.
+        Mon parcours combine une formation juridique solide avec un apprentissage approfondi en développement web et cybersécurité. Cette double compétence me permet de comprendre les enjeux techniques et juridiques liés à la transformation digitale.
+        Je suis motivée par la volonté de contribuer activement au développement de solutions numériques adaptées aux besoins locaux, en favorisant l’innovation, la protection des données et l’accès au droit pour tous.</p>
+    </section>
+
+    <section id="cv" class="section about-section">
+      <h2>Cv</h2>
+      <img src="cv.png" alt="cv" width="300">
+    </section>
+
+    <section id="projets" class="section projects-section">
+      <h2>travail</h2>
+      <p>Actuellement étudiante en ingénierie juridique, je suis également en formation de développement web. Mon objectif principal est de valider mon cursus universitaire tout en acquérant des compétences solides en programmation.
+    Je me concentre sur l’apprentissage du développement web pour renforcer mon profil et préparer mon avenir professionnel, sans chercher de stage pour le moment. Je suis motivée à maîtriser ces nouvelles compétences afin de pouvoir, à terme, contribuer efficacement aux projets numériques dans le domaine juridique ou au-delà.</p>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <h2>Contactez-moi</h2>
+      <form class="contact-form">
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom" required />
+
+        <label for="email">E-mail :</label>
+        <input type="email" id="email" name="email" required />
+
+        <button type="submit">Envoyer</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    &copy; 2025 — Portfolio Créé par AICHA SALL
+  </footer>
+
+</body>
 </html>
